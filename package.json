@@ -1,0 +1,23 @@
+{
+  "name": "mym-nasa-image-gallery",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && nodemon index.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishanjangid/mym-nasa-image-gallery.git"
+  },
+  "author": "krishan jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishanjangid/mym-nasa-image-gallery/issues"
+  },
+  "homepage": "https://github.com/krishanjangid/mym-nasa-image-gallery#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

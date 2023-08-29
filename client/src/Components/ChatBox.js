@@ -39,7 +39,7 @@ onVoiceRecording = () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer api-key'
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
